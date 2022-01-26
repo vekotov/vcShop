@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Магазин пылесов "Красивое"</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/about.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="headerContainer">
+      <a href="/index.html">
+      <div class="shopName">Магазин пылесосов "Красивое"</div>
+      </a>
+      <a href="/basket.html">
+        <div class="basket">
+          <img src="/images/basket.png" class="basketImage"/>
+          <div class="basketText" id="cartText">
+            Корзина: 0.00 р.
+          </div>
+        </div>
+      </a>
+    </div>
+    </div>
+    <div class="containers">
+      <div class="leftContainer">
+          <img src="" class="aboutGoodImage" id="aboutGoodImage" />
+          <div class="price" id="goodprice">
+            6699.99 руб.
+          </div>
+          <div class="countSwitcher small">
+            <div class="minus" onclick="decreaseCounter(1)">
+              -
+            </div>
+            <div class="count" id="goodcounter">
+              1 шт.
+            </div>
+            <div class="plus" onclick="increaseCounter(1)">
+              +
+            </div>
+          </div>
+          <div class="buyButton small" onclick="addToCart(1)">
+            Купить
+          </div>
+      </div>
+      <div class="rightContainer">
+        <div class="itemName" id="itemName">Samsung SC4520</div>
+        <div class="aboutTitle">О товаре:</div>
+        <div class="aboutText" id="description">
+          Samsung SC4520 – современный пылесос с контейнером для пыли. Его характерной особенностью является высокая мощность всасывания, поэтому уборка, проведённая с его помощью, будет особенно эффективной.<br>
+          <br>
+          ВЫСОКАЯ ЭФФЕКТИВНОСТЬ УБОРКИ<br>
+          В этом пылесосе используется система из двух рабочих камер, что повышает результативность уборки. Частицы пыли увлекаются вихревым потоком воздуха во внутреннюю камеру, а частицы мусора удаляются из потока под действием центробежных сил. В результате крупные частицы пыли и мусора остаются во внешней камере и легко удаляются при опустошении пылесборника.<br>
+<br>    
+          ЧИСТЫЙ ВОЗДУХ<br>
+          В пылесосе используется выходной микрофильтр, который поглощает мельчайшую пыль и аллергены. Благодаря этому воздух в помещении после уборки будет чистым и свежим.<br>
+          <br>
+          УДОБНАЯ ПАРКОВКА<br>
+          Пылесос можно парковать как в горизонтальном, так и в вертикальном положении. Это существенно упрощает его хранение.<br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
