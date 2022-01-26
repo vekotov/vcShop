@@ -83,7 +83,7 @@ xhr.onload = function() {
 
 var counters = {}
 
-xhr.open("GET", "/data.xml");
+xhr.open("GET", "./data.xml");
 xhr.responseType = "document";
 xhr.send();
 
