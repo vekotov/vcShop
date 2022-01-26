@@ -4,7 +4,7 @@ function renderGoods(goods) {
 
   for (const [key, element] of Object.entries(goods)) {
     text += `<div class="goods" id="good` + element.id + `">
-    <a href="/about.html?id=` + element.id + `" class="goodsLink">
+    <a href="./about.html?id=` + element.id + `" class="goodsLink">
       <img class="goodsImg" src="` + element.image + `">
       <div class="goodsName">
         ` + element.name + `
