@@ -122,3 +122,9 @@ function decreaseCounter(id) {
   document.getElementById("goodcounter").innerText = obj.counter + " шт."
   document.getElementById("goodprice").innerText = (obj.price.replace(',', '.') * obj.counter).toFixed(2).replace(',', '.') + " руб."
 }
+
+function emptyCart() {
+  cart = {}
+  rerenderCart()
+  setCookie("cart", cart)
+}

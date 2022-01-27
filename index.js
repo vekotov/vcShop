@@ -139,3 +139,9 @@ function addToCart(id) {
   setCookie("cart", cart)
   rerenderCart()
 }
+
+function emptyCart() {
+  cart = {}
+  rerenderCart()
+  setCookie("cart", cart)
+}
